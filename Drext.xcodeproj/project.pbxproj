@@ -7,12 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		953D32501A9B6AFD0010259C /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953D324F1A9B6AFD0010259C /* ColorsViewController.swift */; };
+		953D32521A9B72E00010259C /* CrayonBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953D32511A9B72E00010259C /* CrayonBox.swift */; };
+		953D32541A9B796B0010259C /* BackgroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953D32531A9B796B0010259C /* BackgroundViewController.swift */; };
 		956B1D5D1A94FC8C00E5E786 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956B1D5C1A94FC8C00E5E786 /* AppDelegate.swift */; };
-		956B1D5F1A94FC8C00E5E786 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956B1D5E1A94FC8C00E5E786 /* ViewController.swift */; };
 		956B1D621A94FC8C00E5E786 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 956B1D601A94FC8C00E5E786 /* Main.storyboard */; };
 		956B1D641A94FC8C00E5E786 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 956B1D631A94FC8C00E5E786 /* Images.xcassets */; };
 		956B1D671A94FC8C00E5E786 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 956B1D651A94FC8C00E5E786 /* LaunchScreen.xib */; };
 		956B1D731A94FC8C00E5E786 /* DrextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956B1D721A94FC8C00E5E786 /* DrextTests.swift */; };
+		956B1D7D1A94FE9500E5E786 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956B1D7C1A94FE9500E5E786 /* MainViewController.swift */; };
+		956B1D7F1A94FEB700E5E786 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956B1D7E1A94FEB700E5E786 /* Line.swift */; };
+		956B1D811A94FF3900E5E786 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956B1D801A94FF3900E5E786 /* DrawView.swift */; };
+		956B1D851A957E5000E5E786 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 956B1D841A957E5000E5E786 /* iAd.framework */; };
+		956B1D891A96549000E5E786 /* BrushesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956B1D881A96549000E5E786 /* BrushesViewController.swift */; };
+		956B1D8B1A965AFF00E5E786 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956B1D8A1A965AFF00E5E786 /* Color.swift */; };
+		956B1D8F1A9666E000E5E786 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 956B1D8E1A9666E000E5E786 /* StoreKit.framework */; };
+		95B076BC1A97E41200594712 /* InAppHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B076BB1A97E41200594712 /* InAppHelper.swift */; };
+		95B076BE1A98BACA00594712 /* colors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95B076BD1A98BACA00594712 /* colors.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +37,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		953D324F1A9B6AFD0010259C /* ColorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
+		953D32511A9B72E00010259C /* CrayonBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrayonBox.swift; sourceTree = "<group>"; };
+		953D32531A9B796B0010259C /* BackgroundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundViewController.swift; sourceTree = "<group>"; };
 		956B1D571A94FC8C00E5E786 /* Drext.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drext.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		956B1D5B1A94FC8C00E5E786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		956B1D5C1A94FC8C00E5E786 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		956B1D5E1A94FC8C00E5E786 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		956B1D611A94FC8C00E5E786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		956B1D631A94FC8C00E5E786 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		956B1D661A94FC8C00E5E786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		956B1D6C1A94FC8C00E5E786 /* DrextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		956B1D711A94FC8C00E5E786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		956B1D721A94FC8C00E5E786 /* DrextTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrextTests.swift; sourceTree = "<group>"; };
+		956B1D7C1A94FE9500E5E786 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		956B1D7E1A94FEB700E5E786 /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		956B1D801A94FF3900E5E786 /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		956B1D841A957E5000E5E786 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		956B1D881A96549000E5E786 /* BrushesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrushesViewController.swift; sourceTree = "<group>"; };
+		956B1D8A1A965AFF00E5E786 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		956B1D8E1A9666E000E5E786 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		95B076BB1A97E41200594712 /* InAppHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InAppHelper.swift; sourceTree = "<group>"; };
+		95B076BD1A98BACA00594712 /* colors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = colors.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				956B1D851A957E5000E5E786 /* iAd.framework in Frameworks */,
+				956B1D8F1A9666E000E5E786 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +85,7 @@
 			children = (
 				956B1D591A94FC8C00E5E786 /* Drext */,
 				956B1D6F1A94FC8C00E5E786 /* DrextTests */,
+				958DA8E21A97C1F8009F202B /* Frameworks */,
 				956B1D581A94FC8C00E5E786 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,10 +103,18 @@
 			isa = PBXGroup;
 			children = (
 				956B1D5C1A94FC8C00E5E786 /* AppDelegate.swift */,
-				956B1D5E1A94FC8C00E5E786 /* ViewController.swift */,
-				956B1D601A94FC8C00E5E786 /* Main.storyboard */,
+				953D32531A9B796B0010259C /* BackgroundViewController.swift */,
+				956B1D881A96549000E5E786 /* BrushesViewController.swift */,
+				956B1D8A1A965AFF00E5E786 /* Color.swift */,
+				953D324F1A9B6AFD0010259C /* ColorsViewController.swift */,
+				953D32511A9B72E00010259C /* CrayonBox.swift */,
+				956B1D801A94FF3900E5E786 /* DrawView.swift */,
 				956B1D631A94FC8C00E5E786 /* Images.xcassets */,
+				95B076BB1A97E41200594712 /* InAppHelper.swift */,
 				956B1D651A94FC8C00E5E786 /* LaunchScreen.xib */,
+				956B1D7E1A94FEB700E5E786 /* Line.swift */,
+				956B1D601A94FC8C00E5E786 /* Main.storyboard */,
+				956B1D7C1A94FE9500E5E786 /* MainViewController.swift */,
 				956B1D5A1A94FC8C00E5E786 /* Supporting Files */,
 			);
 			path = Drext;
@@ -91,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				956B1D5B1A94FC8C00E5E786 /* Info.plist */,
+				95B076BD1A98BACA00594712 /* colors.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -110,6 +144,15 @@
 				956B1D711A94FC8C00E5E786 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		958DA8E21A97C1F8009F202B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				956B1D8E1A9666E000E5E786 /* StoreKit.framework */,
+				956B1D841A957E5000E5E786 /* iAd.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +204,12 @@
 				TargetAttributes = {
 					956B1D561A94FC8C00E5E786 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = YZSE9EKZ5C;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
 					};
 					956B1D6B1A94FC8C00E5E786 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -175,6 +224,7 @@
 			knownRegions = (
 				en,
 				Base,
+				he,
 			);
 			mainGroup = 956B1D4E1A94FC8C00E5E786;
 			productRefGroup = 956B1D581A94FC8C00E5E786 /* Products */;
@@ -192,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95B076BE1A98BACA00594712 /* colors.plist in Resources */,
 				956B1D621A94FC8C00E5E786 /* Main.storyboard in Resources */,
 				956B1D671A94FC8C00E5E786 /* LaunchScreen.xib in Resources */,
 				956B1D641A94FC8C00E5E786 /* Images.xcassets in Resources */,
@@ -212,8 +263,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				956B1D5F1A94FC8C00E5E786 /* ViewController.swift in Sources */,
+				956B1D891A96549000E5E786 /* BrushesViewController.swift in Sources */,
+				956B1D8B1A965AFF00E5E786 /* Color.swift in Sources */,
+				953D32501A9B6AFD0010259C /* ColorsViewController.swift in Sources */,
+				956B1D7F1A94FEB700E5E786 /* Line.swift in Sources */,
+				956B1D7D1A94FE9500E5E786 /* MainViewController.swift in Sources */,
+				956B1D811A94FF3900E5E786 /* DrawView.swift in Sources */,
 				956B1D5D1A94FC8C00E5E786 /* AppDelegate.swift in Sources */,
+				953D32541A9B796B0010259C /* BackgroundViewController.swift in Sources */,
+				95B076BC1A97E41200594712 /* InAppHelper.swift in Sources */,
+				953D32521A9B72E00010259C /* CrayonBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,9 +395,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/i814935/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = Drext/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -346,9 +412,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/i814935/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = Drext/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -405,6 +478,7 @@
 				956B1D781A94FC8C00E5E786 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		956B1D791A94FC8C00E5E786 /* Build configuration list for PBXNativeTarget "DrextTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +487,7 @@
 				956B1D7B1A94FC8C00E5E786 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
