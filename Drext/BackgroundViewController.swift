@@ -84,7 +84,7 @@ class BackgroundViewController: UIViewController, UITableViewDelegate, UITableVi
             imagePicker.delegate = self
             imagePicker.sourceType = UIImagePickerControllerSourceType.Camera
             imagePicker.mediaTypes = [kUTTypeImage as String]
-            imagePicker.allowsEditing = true
+//            imagePicker.allowsEditing = true
             
             self.presentViewController(imagePicker, animated: true, completion: nil)
         }
@@ -98,7 +98,7 @@ class BackgroundViewController: UIViewController, UITableViewDelegate, UITableVi
             imagePicker.delegate = self
             imagePicker.sourceType = UIImagePickerControllerSourceType.PhotoLibrary
             imagePicker.mediaTypes = [kUTTypeImage as String]
-            imagePicker.allowsEditing = true
+//            imagePicker.allowsEditing = true
             
             self.presentViewController(imagePicker, animated: true, completion: nil)
         }
@@ -111,7 +111,7 @@ class BackgroundViewController: UIViewController, UITableViewDelegate, UITableVi
         
         if mediaType.isEqualToString(kUTTypeImage as NSString) {
             // Media is an image
-            image = info[UIImagePickerControllerEditedImage] as? UIImage
+            image = info[UIImagePickerControllerOriginalImage] as? UIImage
         }
         
         self.dismissViewControllerAnimated(true, completion: nil)

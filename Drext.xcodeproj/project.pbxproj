@@ -22,8 +22,8 @@
 		956B1D891A96549000E5E786 /* BrushesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956B1D881A96549000E5E786 /* BrushesViewController.swift */; };
 		956B1D8B1A965AFF00E5E786 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956B1D8A1A965AFF00E5E786 /* Color.swift */; };
 		956B1D8F1A9666E000E5E786 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 956B1D8E1A9666E000E5E786 /* StoreKit.framework */; };
+		95A4AEC01AAA010200EB7705 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 95A4AEBF1AAA010200EB7705 /* Settings.bundle */; };
 		95B076BC1A97E41200594712 /* InAppHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B076BB1A97E41200594712 /* InAppHelper.swift */; };
-		95B076BE1A98BACA00594712 /* colors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95B076BD1A98BACA00594712 /* colors.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,8 +56,8 @@
 		956B1D881A96549000E5E786 /* BrushesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrushesViewController.swift; sourceTree = "<group>"; };
 		956B1D8A1A965AFF00E5E786 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		956B1D8E1A9666E000E5E786 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		95A4AEBF1AAA010200EB7705 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		95B076BB1A97E41200594712 /* InAppHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InAppHelper.swift; sourceTree = "<group>"; };
-		95B076BD1A98BACA00594712 /* colors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = colors.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +116,7 @@
 				956B1D601A94FC8C00E5E786 /* Main.storyboard */,
 				956B1D7C1A94FE9500E5E786 /* MainViewController.swift */,
 				956B1D5A1A94FC8C00E5E786 /* Supporting Files */,
+				95A4AEBF1AAA010200EB7705 /* Settings.bundle */,
 			);
 			path = Drext;
 			sourceTree = "<group>";
@@ -124,7 +125,6 @@
 			isa = PBXGroup;
 			children = (
 				956B1D5B1A94FC8C00E5E786 /* Info.plist */,
-				95B076BD1A98BACA00594712 /* colors.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -242,7 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95B076BE1A98BACA00594712 /* colors.plist in Resources */,
+				95A4AEC01AAA010200EB7705 /* Settings.bundle in Resources */,
 				956B1D621A94FC8C00E5E786 /* Main.storyboard in Resources */,
 				956B1D671A94FC8C00E5E786 /* LaunchScreen.xib in Resources */,
 				956B1D641A94FC8C00E5E786 /* Images.xcassets in Resources */,
